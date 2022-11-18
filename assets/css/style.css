@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .coba-class{
+        @apply text-red-500 text-center text-base
+    }
+}
