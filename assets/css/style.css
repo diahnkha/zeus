@@ -38,7 +38,11 @@
         text-shadow: -5px 5px 0px #FFFFFF;
     }
 
-    #hero p, #features p{
+    #hero p, 
+    #features p,
+    #teams p,
+    #teams .teams-desc p
+    #teams .member p{
         font-family: 'Space Grotesk';
         font-style: normal;
         font-weight: 400;
@@ -70,7 +74,8 @@
         background-size: cover;
     } */
 
-    #features h2{
+    #features h2, 
+    #teams h2{
         font-family: 'Syne';
         font-style: normal;
         font-weight: 700;
@@ -106,9 +111,18 @@
         height: 548px;
     }
 
-    #features .card img{
-        box-shadow: inset 15px -15px 0px rgba(255, 255, 255, 0.5);
-        border-radius: 30px;
+    #teams .member{
+        width: 301px;
+        height: 156px;
     }
 
+    #teams .member h4{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+    }
 }

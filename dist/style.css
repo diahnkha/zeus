@@ -993,7 +993,11 @@ input:checked + .toggle-bg {
   text-shadow: -5px 5px 0px #FFFFFF;
 }
 
-#hero p, #features p{
+#hero p, 
+    #features p,
+    #teams p,
+    #teams .teams-desc p
+    #teams .member p{
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -1020,7 +1024,8 @@ input:checked + .toggle-bg {
         background-size: cover;
     } */
 
-#features h2{
+#features h2, 
+    #teams h2{
   font-family: 'Syne';
   font-style: normal;
   font-weight: 700;
@@ -1049,9 +1054,19 @@ input:checked + .toggle-bg {
   height: 548px;
 }
 
-#features .card img{
-  box-shadow: inset 15px -15px 0px rgba(255, 255, 255, 0.5);
-  border-radius: 30px;
+#teams .member{
+  width: 301px;
+  height: 156px;
+}
+
+#teams .member h4{
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
 }
 
 .sr-only {
@@ -1137,6 +1152,16 @@ input:checked + .toggle-bg {
   z-index: 30;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -1161,6 +1186,18 @@ input:checked + .toggle-bg {
   margin-top: 5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-\[73px\] {
+  margin-bottom: 73px;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1171,10 +1208,6 @@ input:checked + .toggle-bg {
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .block {
@@ -1510,6 +1543,10 @@ input:checked + .toggle-bg {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-center {
