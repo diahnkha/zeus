@@ -7,28 +7,108 @@
         @apply text-black 
         text-center text-base
     }  
-    
-    .grotesk{
-        font-family: 'Space Grotesk';
-    }
-
-    .syne{
-        font-family: 'Syne';
-    }
 
     .navbar-nav{
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        /* identical to box height, or 125% */
+        color: #000000;   
+        opacity: 0.5; 
+    }
+
+    .navbar-wrap{
+        border-bottom: 1px solid #F8E0FB;
+    }
+
+    #hero h1{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        /* or 120% */
         
+        text-align: center;
         
         /* Black */
         
         color: #000000;
         
-        opacity: 0.5;
-        
+        text-shadow: -5px 5px 0px #FFFFFF;
     }
+
+    #hero p, #features p{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* Accent */
+
+        color: #532C59;
+    }
+
+    #hero button{
+        width: 114px;
+        height: 52px;
+
+        /* Accent */
+
+        background: #532C59;
+        border-radius: 15px;
+        color: white;
+    }
+    
+    /* #hero {
+        background-image: url("./assets/images/bg-hero.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    #features h2{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+
+        /* Black */
+
+        color: #000000;
+
+    }
+
+    #features h3{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        /* identical to box height, or 131% */
+
+        text-align: center;
+
+        /* Black */
+
+        color: #000000;
+    }
+
+    #features .card{
+        width: 412px;
+        height: 548px;
+    }
+
+    #features .card img{
+        box-shadow: inset 15px -15px 0px rgba(255, 255, 255, 0.5);
+        border-radius: 30px;
+    }
+
 }
