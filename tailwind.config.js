@@ -18,6 +18,10 @@ module.exports = {
     extend: {
       colors: {
         myBlue: '#217BF4',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('../assets/images/bg-hero.png')",
+        'sell-pattern': "url('../assets/images/bg-sell.png')",
       }
     }
   },

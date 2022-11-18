@@ -20,9 +20,9 @@
 <body>
     <!-- NAVBAR SECTION -->
     <nav id="navbar">
-        <div class="container md:px-[30px]">
+        <div class="container max-lg:px-[30px]">
             <div class="navbar-wrap flex justify-between items-center pt-7 pb-7">
-                <ul class="hidden md:flex navbar-left navbar-nav gap-9">
+                <ul class="hidden max-lg:flex navbar-left navbar-nav gap-9">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">University</a></li>
                     <li><a href="#">Courses</a></li>
@@ -54,19 +54,19 @@
         </div>
     </nav>
 
-    <section id="hero">
-        <img class="absolute inset-0" src="assets/images/bg-hero.png" alt="">
-        <div class="container md:px-[30px] text-center">
+    <section id="hero" class="bg-hero-pattern bg-center">
+        <!-- <img class="absolute inset-0 object-cover" src="assets/images/bg-hero.png" alt=""> -->
+        <div class="container pt-[117px] md:px-[30px] text-center">
             <div class="px-[240px]">
-                <h1 class="syne mt-[117px] mb-8">Create & sell your NFTs today</h1>
+                <h1 class="syne text-[80px]   mb-8 max-lg:text-[40px] max-lg:w-[300px] max-lg:leading-4 max-lg:justify-center">Create & sell your NFTs today</h1>
                 <p class="mb-8">Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. Ornare lacinia vitae at vestibulum morbi. Volutpat libero curabitur feugiat risus dui pulvinar. Elementum.</p>
                 <button>Let's sell</button>
             </div>
         </div>
     </section>
 
-    <section id="logo">
-        <div class="container flex justify-center mt-10 gap-10">
+    <section id="logo" class="pt-[181px]">
+        <div class="container flex max-lg:flex-col justify-center gap-10">
             <img src="assets/images/logo-1.png" alt="">
             <img src="assets/images/logo-2.png" alt="">
             <img src="assets/images/logo-3.png" alt="">
@@ -83,7 +83,7 @@
                 <p class="px-[240px] pt-4 pb-16">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
             </div>
             <!-- FIRST CARD COLLECTION -->
-            <div class="card-collection flex gap-8">
+            <div class="card-collection flex justify-center items-center gap-8 mb-16">
                 <div class="card">
                     <img src="assets/images/collection-1.png" alt="">
                     <h3>Moonbirds</h3>
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <!-- SECOND CARD COLLECTION -->
-            <div class="card-collection flex gap-8 mb-16">
+            <div class="card-collection flex justify-center items-center gap-8 mb-16">
                 <div class="card">
                     <img src="assets/images/collection-4.png" alt="">
                     <h3>"MOAR" by Joan Cornella</h3>
@@ -120,7 +120,7 @@
             </div>
 
             <!-- THIRD CARD COLLECTION -->
-            <div class="card-collection flex gap-8 mb-[73px]">
+            <div class="card-collection flex justify-center items-center gap-8 mb-[73px]">
                 <div class="card">
                     <img src="assets/images/collection-4.png" alt="">
                     <h3>"MOAR" by Joan Cornella</h3>
@@ -204,6 +204,215 @@
         </div>
     </section>
 
+    <section id="testi">
+        <div class="container mb-16">
+            <div class="testi-title">
+                <h2 class="my-20 font-normal text-10">Testimonials</h2>
+            </div>
+
+            <!-- CARD-->
+            <div class="flex max-lg:flex-col flex-row items-start justify-center">
+
+                <!-- COLUMN 1 -->
+                <div class="testi-card-collection flex flex-col gap-6 mx-6 justify-center">
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Brooklyn Simmons</h5>
+                                <h5 class="text-detail">@brooklynsimmons</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci.</p>
+                    </div>
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Dianne Russell</h5>
+                                <h5 class="text-detail">@DianneRussell</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Eu luctus tincidunt vulputate praesent interdum proin. Magna gravida at pretium vitae. Viverra.</p>
+                    </div>
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex flex-wrap gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/member-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Eleanor Pena</h5>
+                                <h5 class="text-detail">@EleanorPena</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Amet quam velit nisl et et. Fusce ante facilisi vulputate eget aliquet mi sem eu vulputate.</p>
+                    </div>
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="testi-card-collection flex flex-col gap-6 mx-6 justify-center">
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Esther Howard</h5>
+                                <h5 class="text-detail">@estherhhoward</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Vitae tellus bibendum nibh integer auctor pretium sed. Sollicitudin tristique euismod elit.</p>
+                    </div>
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex flex-wrap gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/member-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Arlene McCoy</h5>
+                                <h5 class="text-detail">@ArleneMcCoy</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Eu eu eget lorem commodo sagittis enim in viverra. Urna egestas ipsum gravida tempor. Libero, consectetur urna in enim magnis. Est.</p>
+                    </div>
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Jane Cooper</h5>
+                                <h5 class="text-detail">@JaneCooper</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis. </p>
+                    </div>
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div class="testi-card-collection flex flex-col gap-6 mx-6 justify-center">
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Kristin Watson</h5>
+                                <h5 class="text-detail">@KristinWatson</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Lectus dolor fermentum gravida ut sit vel. Enim. Lorem ipsum will never be the same again so purchase Zeus UI now or web trying.</p>
+                    </div>
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Leslie Alexander</h5>
+                                <h5 class="text-detail">@LeslieAlexander</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Varius bibendum quis ipsum sit. Enim ante donec erat neque semper. Consectetur sed imperdiet tortor duis nulla aliquet at integer. </p>
+                    </div>
+
+                    <div class="testi-card p-6">
+                        <div class="testi-card-detail flex gap-6">
+                            <img class="h-[48x] w-[48px] rounded-[400px]" src="assets/images/collection-1.png" alt="">
+                            <div class="testi-card-title">
+                                <h5>Darlene Robertson</h5>
+                                <h5 class="text-detail">@DarleneRobertson</h5>
+                            </div>
+                        </div>
+                        <p class="text-p">Imperdiet sed tellus tempor vitae elit a. Arcu a.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="frequently" class="my-20">
+        <div class="container flex justify-center max-lg:flex-col">
+            <div class="frequently-desc mr-8">
+                <h2 class="text-title">Frequently Asked Questions</h2>
+                <p class="mt-6">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+            </div>
+
+            <div class="frequently-left flex flex-col gap-6">
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>What kind of websites I can build with Zeus UI?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>What makes Zeus UI literally the best Web UI kit in the Internet?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+                <div class="frequently-list flex flex-col px-6 py-6">
+                    <div class="flex">
+                        <h3>How much does Zeus UI cost?</h3>
+                        <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                    </div>
+                    <p class="mt-3">This FAQ section is now in the expanded state, so you see how it looks. Rhoncus sed facilisi sed amet. Tristique commodo sodales.</p>
+                    
+                </div>
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>How long will you support Zeus UI?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+            </div>
+            <div class="freqently-right flex flex-col gap-6 ml-8">
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>What kind of websites I can build with Zeus UI?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>What makes Zeus UI literally the best Web UI kit in the Internet?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>How much does Zeus UI cost?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+                <div class="frequently-list flex px-6 py-6">
+                    <h3>How long will you support Zeus UI?</h3>
+                    <img class="object-contain" src="assets/images/arrow-down.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sell" class="bg-sell-pattern bg-center py-20">
+        <div class="container">
+            <div class="sell-desc">
+                <h2 class="mt-20">Ready to sell your NFTs?</h2>
+                <p class="pt-4 pb-16 px-[280px]">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+            </div>
+            <div class="mb-[117px] sell-button flex justify-center items-center">
+                <button>Let's sell</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container mb-20 md:px-[30px]">
+            <div class="footer-wrap border-b flex max-lg:flex-col justify-between items-center pt-7 pb-7">
+                <ul class="flex navbar-left navbar-nav gap-9">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">University</a></li>
+                    <li><a href="#">Courses</a></li>
+                </ul>       
+                
+                <img class="mr-3 ml-3" src="assets/images/logo.png" alt="">
+                <div class="w-6 h-6 mr-3 inline-block md:hidden">
+
+                </div>
+                <div class="flex navbar-right navbar-nav">
+                    <ul class="flex gap-9">
+                        <li><a href="#">Use Cases</a></li>
+                        <li class="flex object-contain items-center gap-2"> 
+                            <a href="#">Plans</a>
+                            <div>
+                                <img src="assets/images/vector.png" alt="">
+                            </div>
+                        </li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>   
+                </div>
+                
+            </div>
+        </div>
+        <div class="container flex justify-center items-center mb-20 md:px-[30px]">
+            <p>Copyright 2022 Zeus UI</p> 
+        </div>
+    </section>
 
 
   

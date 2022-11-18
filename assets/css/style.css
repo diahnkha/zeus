@@ -25,7 +25,6 @@
         font-family: 'Syne';
         font-style: normal;
         font-weight: 700;
-        font-size: 80px;
         line-height: 96px;
         /* or 120% */
         
@@ -41,7 +40,11 @@
     #hero p, 
     #features p,
     #teams p,
-    #provide p{
+    #provide p,
+    #testi p,
+    #frequently .frequently-list p,
+    #sell p
+    {
         font-family: 'Space Grotesk';
         font-style: normal;
         font-weight: 400;
@@ -56,7 +59,8 @@
         color: #532C59;
     }
 
-    #hero button{
+    #hero button,
+    #sell button{
         width: 114px;
         height: 52px;
 
@@ -75,7 +79,10 @@
 
     #features h2, 
     #teams h2,
-    #provide h2{
+    #provide h2,
+    #testi h2,
+    #frequently h2,
+    #sell h2{
         font-family: 'Syne';
         font-style: normal;
         font-weight: 700;
@@ -130,4 +137,113 @@
         width: 301px;
         height: 200px;
     }
+
+    #testi .testi-card{
+        width: 380px;
+        height: fit-content;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+    }
+
+    #testi .testi-card-detail h5{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+
+
+        /* Black */
+
+        color: #000000;
+    }
+
+    #testi .text-detail{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        /* Black */
+
+        color: #000000;
+
+        opacity: 0.5;
+    }
+
+    #testi .text-p{
+        text-align: left;
+        @apply mt-6
+    }
+
+    #frequently .frequently-desc{
+        width: 412px;
+        height: 128px;
+    }
+
+    #frequently .frequently-list{
+        width: 412px;
+        height: fit-content;
+        border: 1px solid #D6BCFA;
+        border-radius: 15px;
+    }
+
+    #frequently .frequently-list h3{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        /* or 130% */
+
+
+        /* Black */
+
+        color: #000000;
+
+        opacity: 0.8;
+    }
+
+    #frequently .text-title{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: left;
+        /* or 133% */
+
+
+        /* Black */
+
+        color: #000000;
+    }
+
+    #frequently .frequently-list p{
+        text-align: left;
+    }
+
+    #footer p{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        
+        text-align: center;
+        
+        /* Black */
+        
+        color: #000000;
+        
+        opacity: 0.5;
+
+    }
+
+
 }
