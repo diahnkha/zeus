@@ -42,13 +42,27 @@
     #teams p,
     #provide p,
     #testi p,
-    #frequently .frequently-list p,
-    #sell p
+    #frequently .frequently-list p
     {
         font-family: 'Space Grotesk';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* Accent */
+
+        color: #532C59;
+    }
+
+    #sell p
+    {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
         line-height: 24px;
         /* or 150% */
 
@@ -81,13 +95,26 @@
     #teams h2,
     #provide h2,
     #testi h2,
-    #frequently h2,
-    #sell h2{
+    #frequently h2{
         font-family: 'Syne';
         font-style: normal;
         font-weight: 700;
         font-size: 48px;
         line-height: 64px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+
+        /* Black */
+
+        color: #000000;
+
+    }
+
+    #sell h2{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
         /* identical to box height, or 133% */
 
         text-align: center;
@@ -135,7 +162,6 @@
     }
 
     #testi .testi-card{
-        width: 380px;
         height: fit-content;
         border: 1px solid #D6BCFA;
         border-radius: 10px;
