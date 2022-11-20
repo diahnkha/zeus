@@ -202,7 +202,6 @@
     }
 
     #frequently .frequently-list{
-        width: 412px;
         height: fit-content;
         border: 1px solid #D6BCFA;
         border-radius: 15px;
@@ -230,11 +229,6 @@
         font-weight: 600;
         font-size: 48px;
         line-height: 64px;
-        text-align: left;
-        /* or 133% */
-
-
-        /* Black */
 
         color: #000000;
     }
