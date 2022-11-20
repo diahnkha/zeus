@@ -18,72 +18,77 @@
 
 </head>
 <body>
-    <!-- NAVBAR SECTION -->
-    <nav id="navbar">
-        <div class="container max-lg:px-[30px]">
-            <div class="navbar-wrap flex justify-between items-center pt-7 pb-7">
-                <ul class="hidden max-lg:flex navbar-left navbar-nav gap-9">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">University</a></li>
-                    <li><a href="#">Courses</a></li>
-                </ul>       
-                <button data-collapse-toggle="navbar-defaults" type="button" class="inline-flex p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                </button>
-                
-                <img class="mr-3 ml-3" src="assets/images/logo.png" alt="">
-                <div class="w-6 h-6 mr-3 inline-block md:hidden">
+<!-- NAVBAR SECTION -->
+<nav id="navbar">
+    <div class="container md:px-[30px]">
+        <div class="navbar-wrap flex justify-between items-center pt-7 pb-7">
+            <ul class="hidden md:flex navbar-left navbar-nav gap-9">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">University</a></li>
+                <li><a href="#">Courses</a></li>
+            </ul>       
+            <button data-collapse-toggle="navbar-defaults" type="button" class="inline-flex p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
 
-                </div>
-                <div class="hidden md:flex navbar-right navbar-nav">
-                    <ul class="flex gap-9">
-                        <li><a href="#">Use Cases</a></li>
-                        <li class="flex object-contain items-center gap-2"> 
-                            <a href="#">Plans</a>
-                            <div>
-                                <img src="assets/images/vector.png" alt="">
-                            </div>
-                        </li>
-                        <li><a href="#">Resources</a></li>
-                    </ul>   
-                </div>
-                
+            <img class="mr-3 ml-3" src="assets/images/logo.png" alt="">
+            <div class="w-6 h-6 mr-3 inline-block md:hidden">
+
+            </div>
+            <div class="hidden md:flex navbar-right navbar-nav">
+                <ul class="flex gap-9">
+                    <li><a href="#">Use Cases</a></li>
+                    <li class="flex object-contain items-center gap-2"> 
+                        <a href="#">Plans</a>
+                        <div>
+                            <img src="assets/images/vector.png" alt="">
+                        </div>
+                    </li>
+                    <li><a href="#">Resources</a></li>
+                </ul>   
             </div>
 
         </div>
-    </nav>
 
-    <section id="hero" class="bg-hero-pattern bg-center">
+    </div>
+</nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="bg-hero-pattern bg-cover">
         <!-- <img class="absolute inset-0 object-cover" src="assets/images/bg-hero.png" alt=""> -->
-        <div class="container pt-[117px] md:px-[30px] text-center">
-            <div class="px-[240px]">
-                <h1 class="syne text-[80px]   mb-8 max-lg:text-[40px] max-lg:w-[300px] max-lg:leading-4 max-lg:justify-center">Create & sell your NFTs today</h1>
+        <div class="container pt-[220px] pb-[148px] text-center">
+            <div class="px-[350px] max-lg:px-20 max-sm:px-8">
+                <h1 class="text-[80px] mb-8 max-lg:text-[40px]">Create & sell your NFTs today</h1>
                 <p class="mb-8">Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. Ornare lacinia vitae at vestibulum morbi. Volutpat libero curabitur feugiat risus dui pulvinar. Elementum.</p>
                 <button>Let's sell</button>
             </div>
         </div>
     </section>
 
-    <section id="logo" class="pt-[181px]">
-        <div class="container flex max-lg:flex-col justify-center gap-10">
-            <img src="assets/images/logo-1.png" alt="">
-            <img src="assets/images/logo-2.png" alt="">
-            <img src="assets/images/logo-3.png" alt="">
-            <img src="assets/images/logo-4.png" alt="">
-            <img src="assets/images/logo-5.png" alt="">
-            <img src="assets/images/logo-6.png" alt="">
+    <section id="logo" class="pt-[181px] max-lg:pt-[40px]">
+        <div class="container flex items-center justify-center gap-10">
+            <div class="flex flex-row justify-center items-center gap-10 max-sm:gap-2 max-sm:mx-3 max-sm:flex max-sm:flex-row max-sm:flex-wrap max-lg:flex max-lg:flex-col max-lg:mt-20 max-lg:gap-4 max-lg:justify-center">
+                <img src="assets/images/logo-1.png" alt="">
+                <img src="assets/images/logo-2.png" alt="">
+                <img src="assets/images/logo-3.png" alt="">
+            </div>
+            <div class="flex flex-row justify-center items-center gap-10 max-sm:gap-2 max-sm:mx-3 max-sm:flex max-sm:flex-row max-sm:flex-wrap max-lg:flex max-lg:flex-col max-lg:mt-20 max-lg:gap-4 max-lg:justify-center">
+                <img src="assets/images/logo-4.png" alt="">
+                <img src="assets/images/logo-5.png" alt="">
+                <img src="assets/images/logo-6.png" alt="">
+            </div>
         </div>
     </section>
 
     <section id="features">
         <div class="container ">
-            <div class="features-desc">
+            <div class="features-desx">
                 <h2 class="mt-20">Hottest Collections</h2>
                 <p class="px-[240px] pt-4 pb-16">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
             </div>
             <!-- FIRST CARD COLLECTION -->
-            <div class="card-collection flex justify-center items-center gap-8 mb-16">
+            <div class="card-collection flex gap-8">
                 <div class="card">
                     <img src="assets/images/collection-1.png" alt="">
                     <h3>Moonbirds</h3>
@@ -101,7 +106,7 @@
                 </div>
             </div>
             <!-- SECOND CARD COLLECTION -->
-            <div class="card-collection flex justify-center items-center gap-8 mb-16">
+            <div class="card-collection flex gap-8 mb-16">
                 <div class="card">
                     <img src="assets/images/collection-4.png" alt="">
                     <h3>"MOAR" by Joan Cornella</h3>
@@ -120,7 +125,7 @@
             </div>
 
             <!-- THIRD CARD COLLECTION -->
-            <div class="card-collection flex justify-center items-center gap-8 mb-[73px]">
+            <div class="card-collection flex gap-8 mb-16">
                 <div class="card">
                     <img src="assets/images/collection-4.png" alt="">
                     <h3>"MOAR" by Joan Cornella</h3>
