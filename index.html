@@ -18,6 +18,14 @@
 
 </head>
 <body>
+
+
+      
+
+
+
+
+
 <!-- NAVBAR SECTION -->
 <nav id="navbar">
     <div class="container md:px-[30px]">
@@ -26,16 +34,51 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">University</a></li>
                 <li><a href="#">Courses</a></li>
-            </ul>       
-            <button data-collapse-toggle="navbar-defaults" type="button" class="inline-flex p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            </button>
-
-            <img class="mr-3 ml-3" src="assets/images/logo.png" alt="">
-            <div class="w-6 h-6 mr-3 inline-block md:hidden">
+            </ul>      
+            
+            <div class="flex flex-col justify-center items-center">
+                <div class=" flex justify-center items-center">
+                    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </button>
+        
+        
+                    <img class="max-sm:mx-20 max-lg:mx-20" src="assets/images/logo.png" alt="">
+                    <div class="w-6 h-6 mr-3 inline-block md:hidden">
+        
+                    </div>
+                </div>
+                
+                <div class="hidden sm:hidden max-sm:block">
+                    <div class="flex justify-center items-center w-full md:block md:w-auto" id="navbar-dropdown">
+                        <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">University</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Courses</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Use Case</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Plans</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resources</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
 
             </div>
+
+
+
             <div class="hidden md:flex navbar-right navbar-nav">
                 <ul class="flex gap-9">
                     <li><a href="#">Use Cases</a></li>
@@ -57,17 +100,17 @@
     <!-- HERO SECTION -->
     <section id="hero" class="bg-hero-pattern bg-cover max-sm:bg-no-repeat">
         <!-- <img class="absolute inset-0 object-cover" src="assets/images/bg-hero.png" alt=""> -->
-        <div class="container pt-[80px] max-sm:pt-12 pb-[148px] max-sm:pb-20 text-center">
-            <div class="px-[350px] max-lg:px-20 max-sm:px-6">
-                <h1 class="text-[80px] mb-8 max-lg:text-[40px] max-sm:text-4xl max-sm:leading-[56px]">Create & sell your NFTs today</h1>
-                <p class="mb-8 max-sm:text-base">Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. Ornare lacinia vitae at vestibulum morbi. Volutpat libero curabitur feugiat risus dui pulvinar. Elementum.</p>
+        <div class="container pt-[80px] max-sm:pt-12 pb-[148px] max-xl:pb-20 max-sm:pb-20 text-center">
+            <div class="px-[350px] max-lg:px-20 max-xl:px-20 max-sm:px-6">
+                <h1 class="text-[80px] mb-8 max-lg:text-[40px] max-sm:text-4xl max-xl:mt-20 max-sm:leading-[56px]">Create & sell your NFTs today</h1>
+                <p class="mb-8 max-sm:text-base max-xl:px-10">Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. Ornare lacinia vitae at vestibulum morbi. Volutpat libero curabitur feugiat risus dui pulvinar. Elementum.</p>
                 <button>Let's sell</button>
             </div>
         </div>
     </section>
 
     <section id="logo" class="pt-[181px] max-lg:pt-[40px] max-lg:mb-16">
-        <div class="container flex items-center justify-center max-lg:mb-8 gap-10 max-lg:flex-wrap max-sm:flex-nowrap max-sm:flex-col max-lg:gap-6">
+        <div class="container flex items-center justify-center max-xl:flex-col max-lg:mb-8 gap-10 max-lg:flex-wrap max-sm:flex-nowrap max-sm:flex-col max-lg:gap-6">
             <div class="flex flex-row justify-center items-center gap-10 max-sm:gap-2 max-sm:mx-3 max-sm:flex max-sm:flex-wrap max-lg:flex max-lg:flex-row max-lg:gap-4 max-lg:justify-center">
                 <img class="max-sm:w-[85px] max-sm:h-[24px]" src="assets/images/logo-1.png" alt="">
                 <img class="max-sm:w-[85px] max-sm:h-[24px]" src="assets/images/logo-2.png" alt="">
@@ -333,8 +376,8 @@
                 <p class="mt-6 max-sm:text-center max-sm:px-10 max-sm:text-sm">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
             </div>
 
-            <div class="frequently-double flex max-lg:flex-col max-sm:mt-40 max-sm:justify-center max-sm:items-center">
-                <div class="frequently-left flex flex-col gap-6">
+            <div class="frequently-double flex max-lg:flex-col max-xl:flex-col max-xl:gap-6 max-sm:mt-40 max-sm:justify-center max-sm:items-center">
+                <div class="frequently-left flex flex-col gap-6 max-xl:mx-auto">
                     <div class="frequently-list flex px-6 py-6 w-[412px] max-sm:w-auto">
                         <h3>What kind of websites I can build with Zeus UI?</h3>
                         <img class="object-contain" src="assets/images/arrow-down.png" alt="">
@@ -356,7 +399,7 @@
                         <img class="object-contain" src="assets/images/arrow-down.png" alt="">
                     </div>
                 </div>
-                <div class="freqently-right flex flex-col gap-6 ml-8 max-lg:ml-0 max-lg:mt-6">
+                <div class="freqently-right flex flex-col gap-6 ml-8 max-lg:ml-0 max-lg:mt-6 max-xl:mx-auto">
                     <div class="frequently-list flex px-6 py-6 w-[412px] max-sm:w-auto">
                         <h3>What kind of websites I can build with Zeus UI?</h3>
                         <img class="object-contain" src="assets/images/arrow-down.png" alt="">
